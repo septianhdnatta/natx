@@ -1,20 +1,17 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel", "cython"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "natx"
 version = "0.2.0"
-description = "Natx by septianhdnatta"
+description = "Project natx by septianhdnatta"
 license = {text = "MIT"}
 authors = [{name = "septianhdnatta", email = "septianhdnatta@example.com"}]
-dependencies = [
-    "colorama",
-    "requests",
-    "pycryptodome",
-    "urllib3",
-    "cfonts"
-]
+dependencies = []
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+natx = "natx:main"
