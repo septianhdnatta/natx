@@ -1,0 +1,6 @@
+def main():
+    print("Hello from natx!")
+    # Tambahkan kode script kamu di sini
+
+if __name__ == "__main__":
+    main()
