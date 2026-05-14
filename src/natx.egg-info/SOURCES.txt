@@ -1,0 +1,9 @@
+pyproject.toml
+src/natx/__init__.py
+src/natx/__main__.py
+src/natx/natx.py
+src/natx.egg-info/PKG-INFO
+src/natx.egg-info/SOURCES.txt
+src/natx.egg-info/dependency_links.txt
+src/natx.egg-info/entry_points.txt
+src/natx.egg-info/top_level.txt
