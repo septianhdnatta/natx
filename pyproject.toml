@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "natx"
-version = "0.1.0"
+version = "0.1.2"
 description = "Project natx by septianhdnatta"
 license = {text = "MIT"}
 authors = [{name = "septianhdnatta", email = "septianhdnatta@example.com"}]
