@@ -31,8 +31,12 @@ jobs:
         run: |
           find src/natx -name "*.py" ! -name "__init__.py" -delete
       
-      - name: Build wheel
+      - name: Build distribution
         run: |
           python -m build
+      
+      - name: List dist files
+        run: |
+          ls -la dist/
       
       - uses: pypa/gh-action-pypi-publish@release/v1
